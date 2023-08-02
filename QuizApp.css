@@ -1,0 +1,58 @@
+*{
+box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: aquamarine;
+
+}
+
+.QuizApp{
+    background-color: yellow;
+    text-align: center;
+   padding: 20px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   border: none;
+   border-radius: 20px;
+}
+.QuizApp h1{
+            font-size: 60px;
+        padding: 9px 0px;
+}
+.QuizApp h3{
+    font-size: 40px;
+padding: 9px 0px;
+}
+.QuizApp input{
+    display: block;
+    border: 0px;
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 5px;
+  
+}
+.submitbtn{
+
+    display: block;
+    width: 100%;
+    border: 0;
+    margin: 20px 0px;
+    padding: 15px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: darkslategrey;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+.quizscore{
+    text-align: right;
+    font-size: 20px;
+}
